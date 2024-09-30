@@ -1,0 +1,14 @@
+.hero-places-to-see {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  padding-left: 20px;
+  color: white;
+}
+.header {
+    background-image:  linear-gradient(
+      rgba(57, 56, 55, 0.3),
+      rgba(63, 86, 69, 0.5)
+    ), url('../images/cover-page2.jpg');
+}

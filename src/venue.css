@@ -1,0 +1,55 @@
+.header {
+  background-image: linear-gradient(
+    rgba(57, 56, 55, 0.2),
+    rgba(30, 34, 31, 0.5)
+  );
+}
+.hero-venue {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 20px;
+  padding-left: 20px;
+}
+.venues-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.boxes {
+  grid-gap: 15px;
+}
+
+.box {
+  border: 1px solid grey;
+  padding: 5px;
+  background-color: rgb(210, 210, 210);
+}
+.card-body p{
+  margin: 0;
+}
+#load-more {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 13px 30px;
+  border: 1px solid #334;
+  color: #334;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+#load-more:hover {
+  background-color: #334;
+  color: #fff;
+  border-color: #334;
+}
+
+@media (max-width: 414px) {
+  .boxes {
+    margin: 0;
+    padding: 25px;
+  }
+  .box {
+    height: 150px;
+  }
+}
