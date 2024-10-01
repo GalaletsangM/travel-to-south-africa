@@ -49,7 +49,7 @@ body {
 .Entry-requirements {
   width: 100%;
   height: 100%;
-  background-color: grey;
+  
   
 }
 .wrapper {
@@ -57,12 +57,16 @@ body {
   padding: 20px;
   padding-bottom: 100px;
   text-align: center;
-  color: white;
+  color: black;
   max-width: 2000px;
   margin: 0 auto;
 }
-.wrapper h1 {
+.Entry-requirements .wrapper h1 {
   font-weight: bold;
+  font-size: 28px;
+}
+.Entry-requirements .wrapper p{
+  font-size: 20px;
 }
 .wrapper button {
   padding: 8px;
@@ -71,8 +75,8 @@ body {
   border: 1px solid black;
 }
 .wrapper button:hover {
-  background-color: white;
-  border: 1px solid white;
+  background-color: rgb(213, 168, 18);
+  border: 1px solid rgb(213, 168, 18);
   color: black;
 }
 .Entry-requirements {
